@@ -134,10 +134,7 @@
         CGContextSetShadowWithColor(context, CGSizeMake(1.0,1.0), 3, [[UIColor blackColor] CGColor]);
     }
     CGContextFillPath(context);
-    CGContextClip(context); // helps with the round edges
 	CGContextRestoreGState(context);
-
-
 }
 
 // Draws the Badge Shine with Quartz
